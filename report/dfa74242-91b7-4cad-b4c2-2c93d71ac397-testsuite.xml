@@ -1,0 +1,53 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1557114621022" stop="1557114621088">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1557114621022" status="passed" stop="1557114621036">
+      <name>C:\Users\金曼\Downloads\jenkins_project_10\scripts.test_login.TestLogin.test_login1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1996-MainThread"/>
+        <label name="host" value="DESKTOP-PPS9LRR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1557114621037" status="failed" stop="1557114621086">
+      <name>C:\Users\金曼\Downloads\jenkins_project_10\scripts.test_login.TestLogin.test_login2</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_login.TestLogin object at 0x0000017C1EFE2550&gt;
+
+    def test_login2(self):
+        print("test_login2")
+&gt;       assert 0
+E       assert 0
+
+scripts\test_login.py:9: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1996-MainThread"/>
+        <label name="host" value="DESKTOP-PPS9LRR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1557114621087" status="passed" stop="1557114621088">
+      <name>C:\Users\金曼\Downloads\jenkins_project_10\scripts.test_login.TestLogin.test_login3</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1996-MainThread"/>
+        <label name="host" value="DESKTOP-PPS9LRR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
